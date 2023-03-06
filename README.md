@@ -15,6 +15,34 @@ The project uses the following technologies and frameworks:
 - Node.js
 - AWS
 
+Serverless Framework
+====================
+
+The Serverless Framework is an open-source tool that simplifies the process of deploying and managing serverless applications. It supports popular cloud providers like AWS, Microsoft Azure, Google Cloud Platform, and more.
+
+AWS Lambda supports multiple versions of Node.js, including the latest Long-Term Support (LTS) version. As of March 2023, the current LTS version is Node.js 18, which is fully supported by AWS Lambda.
+
+The current version of the Serverless Framework is 3.x, which provides improved performance, simplified deployments, and enhanced security features.
+
+To install the Serverless CLI, follow these steps:
+
+1.  Ensure that you have Node.js and npm (Node Package Manager) installed on your machine. You can download Node.js from the official website: <https://nodejs.org/en/download/>
+
+2.  Open a terminal or command prompt and run the following command to install the Serverless Framework:
+
+    Copy code
+
+    `npm install -g serverless`
+
+    This command will install the Serverless Framework globally on your machine.
+
+3.  After the installation is complete, verify that the Serverless CLI is installed by running the following command:
+
+    cssCopy code
+
+    `serverless --version`
+
+    This command should output the version number of the Serverless Framework, indicating that it is installed correctly.
 ## Getting Started
 
 To get started with the TypeScript Starter Project, follow these steps:

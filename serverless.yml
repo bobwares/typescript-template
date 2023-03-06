@@ -1,4 +1,4 @@
-service: document-gateway
+service: [service-name]
 frameworkVersion: '3'
 plugins:
   - serverless-esbuild
@@ -13,7 +13,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs18.x
 
 functions:
   main:
