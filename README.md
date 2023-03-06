@@ -40,16 +40,19 @@ The current version of the Serverless Framework is 3.x, which provides improved 
     serverless --version
 
     This command should output the version number of the Serverless Framework, indicating that it is installed correctly.
-## Getting Started
+## Steps to Set Up and Deploy a TypeScript Serverless Application on AWS
 
 To get started with the TypeScript Starter Project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install dependencies by running `npm install`.
-3. Set up your AWS credentials using one of the methods supported by the Serverless Framework, such as environment variables or an AWS profile.
-4. Customize the `serverless.yml` file to fit your specific requirements.
-5. Write your own TypeScript code for the Lambda function.
-6. Deploy your application to AWS using the Serverless Framework.
+    git clone https://github.com/bobwares/typescript-template my-project
+2. Change [service-name] in serverless.yml to the name of your service.
+3. Change [service-name] in package.json to the name of your service.
+4. Install dependencies by running `npm install`.
+5. Set up your AWS credentials using one of the methods supported by the Serverless Framework, such as environment variables or an AWS profile.
+6. Customize the `serverless.yml` file to fit your specific requirements.
+7. Write your own TypeScript code for the Lambda function.
+8. Deploy your application to AWS using the Serverless Framework.
 
 ## Usage
 
@@ -80,3 +83,16 @@ To run tests, use the following command:
     npm run test
 
 This will run the test suite for your application using Jest.
+
+## References
+
+The GitHub repository for the Serverless Framework can be found at <https://github.com/serverless/serverless>.
+
+The Serverless Framework also provides a number of example repositories showcasing various use cases and configurations. Some of the popular examples include:
+
+-   <https://github.com/serverless/examples>: Official examples repository maintained by the Serverless Framework team.
+-   <https://github.com/serverless/examples/tree/master/aws-node-rest-api-with-dynamodb-and-offline>: Example of building a RESTful API using Node.js and DynamoDB, with local development and testing using the Serverless Offline plugin.
+-   <https://github.com/serverless/examples/tree/master/aws-python-pynamodb-api>: Example of building a Python-based RESTful API using PynamoDB, with AWS Lambda and API Gateway.
+-   <https://github.com/serverless/examples/tree/master/aws-node-auth0-custom-authorizers-api>: Example of using Auth0 for custom authorizers in a Node.js-based API.
+
+You can find more examples by exploring the Serverless Framework's examples repository on GitHub.
